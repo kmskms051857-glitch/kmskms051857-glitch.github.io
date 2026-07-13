@@ -111,10 +111,10 @@ const PORTFOLIO_DATA = {
       thumbUrl: 'https://img.youtube.com/vi/zaq8nIfOqj4/hqdefault.jpg'
     },
     {
-      title: 'Imagine Dragons - Radioactive - YouTube',
+      title: '스타트 (2022)',
       category: 'Short Documentary',
       description: '대학교 야구부 선수의 이야기',
-      roles: ['기획', '조명', '편집'],
+      roles: ['기획', '촬영'],
       videoUrl: 'https://youtu.be/iL37-UzvjBo',
       detailUrl: 'https://youtu.be/iL37-UzvjBo',
       thumbUrl: 'https://img.youtube.com/vi/iL37-UzvjBo/hqdefault.jpg'
