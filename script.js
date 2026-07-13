@@ -111,10 +111,10 @@ const PORTFOLIO_DATA = {
       thumbUrl: 'https://img.youtube.com/vi/zaq8nIfOqj4/hqdefault.jpg'
     },
     {
-      title: 'Radioactive',
-      category: 'Storytelling',
-      description: '사건과 인물의 맥락을 자연스럽게 이어주며 깊이 있는 내러티브를 담아냈습니다.',
-      roles: ['촬영', '편집'],
+      title: 'Imagine Dragons - Radioactive - YouTube',
+      category: 'Short Documentary',
+      description: '대학교 야구부 선수의 이야기',
+      roles: ['기획', '조명', '편집'],
       videoUrl: 'https://youtu.be/iL37-UzvjBo',
       detailUrl: 'https://youtu.be/iL37-UzvjBo',
       thumbUrl: 'https://img.youtube.com/vi/iL37-UzvjBo/hqdefault.jpg'
@@ -279,7 +279,7 @@ function initDetailPage() {
   slideContainer.classList.add(data.themeClass);
 
   if (titleEl) titleEl.textContent = data.titleText;
-  if (copyEl) copyEl.textContent = `${data.titleText} 시리즈의 작업들을 카드 형태로 정리했습니다.`;
+  if (copyEl) copyEl.textContent = '';
 
   renderPortfolioGrid(tagParam);
 
