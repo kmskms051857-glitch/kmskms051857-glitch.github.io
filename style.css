@@ -123,7 +123,7 @@ body::before {
   padding: 60px 50px;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: flex-start;
   background: rgba(255,255,255,0.4);
 }
 
@@ -190,13 +190,31 @@ body::before {
   font-size: 1rem;
   font-weight: 500;
   color: var(--text-secondary);
-  margin-bottom: 10px;
+  margin-bottom: 14px;
+}
+
+.profile-title {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: var(--text-primary);
+  margin-bottom: 14px;
+}
+
+.profile-divider {
+  width: 100%;
+  max-width: 180px;
+  height: 1px;
+  margin: 8px 0 16px;
+  background: rgba(128, 128, 128, 0.25);
 }
 
 .profile-major {
-  font-size: 1.25rem;
+  font-size: 1rem;
+  letter-spacing: -0.02em;
   font-weight: 400;
   color: var(--text-secondary);
+  margin-top: 0;
+  margin-bottom: 24px;
 }
 
 .profile-bio {
@@ -213,19 +231,20 @@ body::before {
 }
 
 .interests-title {
-  font-size: 0.85rem;
-  font-weight: 600;
+  font-size: 1rem;
+  font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.08em;
-  color: var(--text-secondary);
-  margin-bottom: 14px;
+  color: var(--text-primary);
+  margin-top: 32px;
+  margin-bottom: 18px;
 }
 
 .interests-tags {
   display: flex;
   flex-wrap: wrap;
   gap: 12px;
-  margin-bottom: 40px;
+  margin-bottom: 50px;
 }
 
 .tag {
@@ -277,6 +296,7 @@ body::before {
 .contact-links {
   display: flex;
   gap: 16px;
+  margin-top: 24px;
 }
 
 .btn-contact {
