@@ -3,14 +3,12 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>관심사 상세 정보</title>
+  <title>포트폴리오 갤러리</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <!-- The layout mimics the presentation slide of the index page for visual continuity -->
   <div class="presentation-slide" id="detail-slide">
     <div class="detail-container">
-      <!-- Detail Header with Back Button and Category Badge -->
       <div class="detail-header">
         <a href="index.html" class="btn-back" id="back-button">
           <svg viewBox="0 0 24 24">
@@ -21,8 +19,13 @@
       </div>
 
       <div class="detail-portfolio">
-
-        <h3>포트폴리오</h3>
+        <div class="portfolio-intro">
+          <div>
+            <p class="portfolio-eyebrow">Video Gallery</p>
+            <h3 id="portfolio-section-title">포트폴리오</h3>
+            <p class="portfolio-intro-copy" id="portfolio-section-copy">다양한 영상 프로젝트를 카드형으로 둘러보세요.</p>
+          </div>
+        </div>
         <div class="portfolio-grid" id="portfolio-grid"></div>
       </div>
     </div>
