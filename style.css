@@ -212,8 +212,14 @@ body::before {
 }
 
 .profile-bio {
-  font-size: 1rem;
-  line-height: 1.6;
+  display: block;
+  width: 100%;
+  font-size: 0.84rem;
+  line-height: 1.2;
+  letter-spacing: -0.015em;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
   color: #48484a;
   margin-bottom: 35px;
 }
