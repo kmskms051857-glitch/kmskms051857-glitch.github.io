@@ -481,12 +481,15 @@ body::before {
   display: flex;
   flex-direction: column;
   gap: 14px;
+  flex: 1;
+  justify-content: space-between;
 }
 
 .portfolio-card-copy {
   display: flex;
   flex-direction: column;
   gap: 6px;
+  flex: 1;
 }
 
 .portfolio-card-title {

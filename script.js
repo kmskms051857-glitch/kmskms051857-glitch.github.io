@@ -35,13 +35,13 @@ const PORTFOLIO_DATA = {
       thumbUrl: 'https://img.youtube.com/vi/UAXaxqroUwo/hqdefault.jpg'
     },
     {
-      title: 'Numb – Linkin Park',
-      category: 'Music Video',
-      description: '몰입감 있는 연출과 정제된 편집으로 음악의 감성을 강조했습니다.',
-      roles: ['기획', '모션그래픽', '편집'],
-      videoUrl: 'https://www.youtube.com/watch?v=kXYiU_JCYtU',
-      detailUrl: 'https://www.youtube.com/watch?v=kXYiU_JCYtU',
-      thumbUrl: 'https://img.youtube.com/vi/kXYiU_JCYtU/hqdefault.jpg'
+      title: '누구세요(2023) - YouTube',
+      category: 'Short Film',
+      description: '두 남녀, 오프라인과 온라인의 대비',
+      roles: ['기획', '조명', '편집'],
+      videoUrl: 'https://youtu.be/pXH9BOzCXOE',
+      detailUrl: 'https://youtu.be/pXH9BOzCXOE',
+      thumbUrl: 'https://img.youtube.com/vi/pXH9BOzCXOE/hqdefault.jpg'
     },
     {
       title: 'Flexin On Ya',
@@ -102,22 +102,22 @@ const PORTFOLIO_DATA = {
   ],
   documentary: [
     {
-      title: 'All Star',
-      category: 'Documentary Mood',
-      description: '현실의 흐름을 보존하면서도 감정선이 살아나는 방식으로 구성된 기록형 영상입니다.',
+      title: '신암마을 (2023) - YouTube',
+      category: 'Short Documentary',
+      description: '신암마을과 그곳에서 살아가는 사람들의 이야기',
       roles: ['기획', '촬영', '편집'],
-      videoUrl: 'https://www.youtube.com/watch?v=L_jWHffIx5E',
-      detailUrl: 'https://www.youtube.com/watch?v=L_jWHffIx5E',
-      thumbUrl: 'https://img.youtube.com/vi/L_jWHffIx5E/hqdefault.jpg'
+      videoUrl: 'https://youtu.be/zaq8nIfOqj4',
+      detailUrl: 'https://youtu.be/zaq8nIfOqj4',
+      thumbUrl: 'https://img.youtube.com/vi/zaq8nIfOqj4/hqdefault.jpg'
     },
     {
       title: 'Radioactive',
       category: 'Storytelling',
       description: '사건과 인물의 맥락을 자연스럽게 이어주며 깊이 있는 내러티브를 담아냈습니다.',
       roles: ['촬영', '편집'],
-      videoUrl: 'https://www.youtube.com/watch?v=ktvTqknDobU',
-      detailUrl: 'https://www.youtube.com/watch?v=ktvTqknDobU',
-      thumbUrl: 'https://img.youtube.com/vi/ktvTqknDobU/hqdefault.jpg'
+      videoUrl: 'https://youtu.be/iL37-UzvjBo',
+      detailUrl: 'https://youtu.be/iL37-UzvjBo',
+      thumbUrl: 'https://img.youtube.com/vi/iL37-UzvjBo/hqdefault.jpg'
     },
     {
       title: 'The Lazy Song',
