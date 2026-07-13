@@ -239,6 +239,10 @@ function initIndexPage() {
   const tags = document.querySelectorAll('.tag');
   const slideContainer = document.getElementById('main-slide');
 
+  if (slideContainer) {
+    slideContainer.classList.remove('page-exit');
+  }
+
   tags.forEach(tag => {
     tag.addEventListener('click', (e) => {
       e.preventDefault();
@@ -288,11 +292,7 @@ function initDetailPage() {
       e.preventDefault();
 
       const targetUrl = backButton.getAttribute('href');
-      slideContainer.classList.add('page-exit');
-
-      setTimeout(() => {
-        window.location.href = targetUrl;
-      }, 400);
+      window.location.href = targetUrl;
     });
   }
 }
